@@ -16,7 +16,7 @@ const projects = [
       'Distributed microservices system handling 10K+ patient records and 1000+ daily transactions, deployed on AWS ECS with API Gateway. Achieved 5x faster inter-service communication via gRPC and 40% faster deployments via Docker.',
     technologies: ['Java', 'Spring Boot', 'gRPC', 'Docker', 'AWS ECS', 'API Gateway'],
     demo: '#',
-    code: '#',
+    code: 'https://github.com/maheshwari522/patient-management',
     image: '/patient-mgmt.jpg',
   },
   {
@@ -25,7 +25,7 @@ const projects = [
       'Voice-based AI interview agent with < 1s speech-to-response latency using FastAPI, Next.js, WebSockets, GPT-4, and Whisper. Integrated Monaco editor for live coding and RAG-based question generation over a 5K+ problem database.',
     technologies: ['FastAPI', 'Next.js', 'WebSockets', 'OpenAI GPT-4', 'Whisper', 'RAG'],
     demo: '#',
-    code: '#',
+    code: 'https://github.com/maheshwari522/LLM-Powered-Mock-Interview-Agent',
     image: '/interview-platform.jpg',
   },
   {
@@ -34,7 +34,7 @@ const projects = [
       'Multi-agent system leveraging NVIDIA Nemotron models, Agentic RAG, LangChain, and LangGraph to autonomously detect, analyze, and refactor technical debt across enterprise-scale codebases. Improved maintainability and developer efficiency by ~60%.',
     technologies: ['Nemotron', 'LangChain', 'LangGraph', 'Vector DB', 'GenAI'],
     demo: '#',
-    code: '#',
+    code: 'https://github.com/maheshwari522/debt_reducer_agentic_mvp',
     image: '/tech-debt-agent.jpg',
   },
 ];
