@@ -25,6 +25,7 @@ export default function Experience() {
                 <li>Designed service-layer modules integrating Google Places for provider lookup and Twilio for automated voice/SMS, optimizing API orchestration and reducing latency by 40%.</li>
               </ul>
             </div>
+
             <div className="glass rounded-xl p-6 relative">
               <span className="hidden md:block absolute -left-[9px] top-8 h-4 w-4 rounded-full bg-gradient-to-r from-neon-purple to-neon-blue shadow-glow" />
               <div className="flex flex-col md:flex-row md:items-center md:justify-between">
@@ -39,6 +40,22 @@ export default function Experience() {
                 <li>Designed a Kafka messaging layer that decoupled services and boosted message throughput by 35% under peak load.</li>
                 <li>Optimized system performance by 40% through Redis caching and asynchronous processing to minimize database overhead.</li>
                 <li>Enhanced data-retrieval speed by 30% via optimized AWS Elasticsearch indexing and query tuning.</li>
+              </ul>
+            </div>
+
+            <div className="glass rounded-xl p-6 relative">
+              <span className="hidden md:block absolute -left-[9px] top-8 h-4 w-4 rounded-full bg-gradient-to-r from-neon-blue to-neon-pink shadow-glow" />
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Engineer</h3>
+                  <p className="text-gray-600 dark:text-gray-400">Tata Consultancy Services, Mumbai, India</p>
+                </div>
+                <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">Jul 2019 – Jan 2022</p>
+              </div>
+              <ul className="list-disc pl-5 mt-4 space-y-2 text-gray-700 dark:text-gray-300">
+                <li>Spearheaded React & React Native banking app development for 5M+ users, enhancing UX flow and increasing transaction completion by 25%.</li>
+                <li>Revamped state management with Redux Toolkit and React Hooks, lowering render latency by 30% during high-traffic sessions.</li>
+                <li>Integrated OAuth 2.0 and JWT authentication, delivering stateless security and 25% faster login performance.</li>
               </ul>
             </div>
           </div>
