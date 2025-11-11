@@ -29,17 +29,16 @@ export default function Experience() {
               <span className="hidden md:block absolute -left-[9px] top-8 h-4 w-4 rounded-full bg-gradient-to-r from-neon-purple to-neon-blue shadow-glow" />
               <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Engineering Specialist</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Dassault Systèmes</p>
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Engineer 2</h3>
+                  <p className="text-gray-600 dark:text-gray-400">Dassault Systems, Pune, India</p>
                 </div>
-                <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">Jan 2022 - Jul 2024</p>
+                <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">Jan 2022 – Jul 2024</p>
               </div>
               <ul className="list-disc pl-5 mt-4 space-y-2 text-gray-700 dark:text-gray-300">
-                <li>Engineered a distributed document management system using Java Spring Boot, Elasticsearch, and AWS S3 achieving 30% faster data retrieval and efficiently serving 30,000+ weekly requests.</li>
-                <li>Architected modular microservices with REST/gRPC interfaces, enhancing inter-service communication and cutting technical debt by 30% via reusable shared components.</li>
-                <li>Optimized high-traffic endpoints through Redis caching, SQL indexing and asynchronous processing, reducing API response time by 40%.</li>
-                <li>Integrated JWT with Spring Security for secure, stateless authentication and RBAC, reducing database load by 30% through tokenized role access.</li>
-                <li>Spearheaded front-end architecture with Redux, React Router, and ReactJS, promoting modularity and reducing code duplication.</li>
+                <li>Architected and scaled Java Spring Boot microservices supporting 50k+ users on the 3DSwYm client-community platform.</li>
+                <li>Designed a Kafka messaging layer that decoupled services and boosted message throughput by 35% under peak load.</li>
+                <li>Optimized system performance by 40% through Redis caching and asynchronous processing to minimize database overhead.</li>
+                <li>Enhanced data-retrieval speed by 30% via optimized AWS Elasticsearch indexing and query tuning.</li>
               </ul>
             </div>
           </div>
